@@ -22,16 +22,3 @@ def get_only_string_with_characters(lst):
     return [value for value in lst if value.isalpha()]
 print(get_only_string_with_characters(random_stuffs))
 
-#testing git taskbar
-
-#2 Classwork
-def find_common_elements(*d1):
-    d1 = [1,2,3,4,5,6,9]
-    d2 = [8,7,4,3,2,9,1]
-    d3 = []
-    for i in d1:
-        if i in d2:
-            d3.append(i)
-    return d3
-result = find_common_elements()
-print(result)

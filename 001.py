@@ -10,3 +10,4 @@ def process_names(names_list : list)->tuple:
         
 process_names(names_list)
 print(f'Num:{num_names}, first: {first_names}, last: {last_names}')
+

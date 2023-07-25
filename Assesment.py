@@ -1,5 +1,5 @@
 #Assesment1 25/7/23
-sentence = ['Goodday My name is john and im here for a job offer.', 'Today is indeed a great day and we are all are happy ']
+sentence = ['Goodday My name is john and im here for a job offer.', 'Today is indeed a great day and we all are happy ']
 def longest_word(sentence):
     print(max(sentence))
 longest_word(sentence)
